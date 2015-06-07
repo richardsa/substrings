@@ -17,9 +17,7 @@ def substrings(text, dictionary)
   end
   
   #print out hits to console
-  frequencies.each do |a,b|
-    puts "#{a} => #{b}"
-  end
+  puts frequencies
 end
 
 #call substring method
